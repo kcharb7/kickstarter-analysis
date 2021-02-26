@@ -8,7 +8,7 @@ Louise, a play writer, set a budget of $12,000 for her play Fever. Through fundr
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-I began my analysis by first determining the year in which each campaign was launched. This was achieved by creating a new column within the Kickstarter spreadsheet labelled “Years”. Then, I clicked on the cell beneath (i.e., U2) and typed the function YEAR(S2), with S indicating the column containing data on the Date Created Conversion. I applied this formula to the remaining cells by clicking the new cell, U2, and double-clicking the bottom right corner of the cell once my cursor turns black. 
+I began my analysis by first determining the year in which each campaign was launched. This was achieved by creating a new column within the Kickstarter spreadsheet labelled “Years”. Then, I clicked on the cell beneath (i.e., U2) and typed the function YEAR(S2), with S indicating the column containing data on the Date Created Conversion. I applied this formula to the remaining cells by clicking the new cell, U2, and double-clicking the bottom right corner of the cell once my cursor turned black. 
 ![Screenshot_Year](https://github.com/kcharb7/kickstarter-analysis/blob/main/Resources/Screenshot_Year.png)
 
 Once the Years column was created I clicked the “Insert” tab and the option “Pivot Table” in the top left-hand corner. 
@@ -17,7 +17,7 @@ Once the Years column was created I clicked the “Insert” tab and the option 
 A new window appeared, and I selected for the pivot table to be placed in a new worksheet. The new worksheet was renamed “Theater Outcomes by Launch Date”. Looking at the “PivotTable Fields” box on the right-hand side of the screen, the pivot table was filtered by “Parent Category” and “Years” by dragging each variable under the “Filters” heading. Outcomes were placed under the “Columns” heading as well as the “Values” heading. “Date Created Conversion” was placed under the “Rows” heading, which resulted in the listing of “Years2” and “Quarters” variables under “Rows” as well. These two variables were removed by dragging and dropping them to the left outside of the box. 
 ![Screenshot_Design_PivotTable](https://github.com/kcharb7/kickstarter-analysis/blob/main/Resources/Screenshot_Design_PivotTable.png)
 
-Clicking the filter tab beside “Column Labels”, campaign outcomes were filtered to show only “successful”, “failed” and “canceled” outcomes and placed in descending order. 
+Clicking the filter tab beside “Column Labels”, campaign outcomes were filtered to show only “successful”, “failed”, and “canceled” outcomes and placed in descending order. 
 ![Screenshot_Filter_Columns](https://github.com/kcharb7/kickstarter-analysis/blob/main/Resources/Screenshot_Filter_Columns.png)
 
 The “Parent Category” was filtered to show only “theater” by clicking the drop arrow within the row for “Parent Category”. 
@@ -76,7 +76,7 @@ When creating the percentages for each outcome, I initially used the ROUND() fun
 ### Outcomes based on Launch Date
 ![Theater_Outcomes_vs_Launch](https://github.com/kcharb7/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
-Looking at the line chart for the theater outcomes based on launch date it is apparent that month of May launched the most successful theater campaigns, followed by June. Less campaigns were successful from September to January, with December having the least amount of successful campaigns. January, March, September, November, and December all had about the same number of failed campaigns. 
+Looking at the line chart for the theater outcomes based on launch date it is apparent that the month of May launched the most successful theater campaigns, followed by June. Less campaigns were successful from September to January, with December having the least amount of successful campaigns. January, March, September, November, and December all had about the same number of failed campaigns. 
 
 ### Outcomes based on Goals
 ![Outcomes_vs_Goals](https://github.com/kcharb7/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
@@ -84,10 +84,10 @@ Looking at the line chart for the theater outcomes based on launch date it is ap
 Analyses on outcomes based on goals shows that all plays with campaign goals between $45,000 to $49,999 failed, while the highest percentage of successful campaigns was for plays with campaign goals less than $1,000. 
 
 ### Limitations of this dataset
-Within the dataset there were no plays that we canceled, hindering our ability to determine whether campaign goals affected plays being canceled. Furthermore, most campaigns had goals less than $15,000, thus impacting the interpretations for percentage successful, failed, or canceled. For instance, only 6 campaigns had goals between $35,000 and $39,999, of which 4 were successful and 2 failed, rendering a percentage successful of 67%. This could be interpreted to mean that most campaigns with this goal range could be successful, but a larger sample size may indicate otherwise. 
+Within the dataset there were no plays that were canceled, hindering our ability to determine whether campaign goals affected plays being canceled. Furthermore, most campaigns had goals less than $15,000, thus impacting the interpretations for percentage successful, failed, or canceled. For instance, only 6 campaigns had goals between $35,000 and $39,999, of which 4 were successful and 2 failed, rendering a percentage successful of 67%. This could be interpreted to mean that most campaigns with this goal range could be successful, but a larger sample size may indicate otherwise. 
 
 ### Recommendations for additional tables and/or graphs
 A bar graph with outcomes on the y-axis and country on the x-axis could be created to determine which countries had the most successful theater campaigns.
-Another bar graph could be created with country as the row and amount pledged as the column to see which countries pledge the most.
+Another bar graph could be created with country as the row and amount pledged as the column to see which countries pledged the most.
 Another bar graph could be created with country as the row and backers count as the column to see which countries have higher backers counts for theater campaigns. 
 Finally, a bar graph with amount pledged on the y-axis and year on the x-axis could be created to show which years had the highest pledges.
