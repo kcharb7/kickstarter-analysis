@@ -5,6 +5,10 @@
 ### Purpose
 Louise, a play writer, set a budget of $12,000 for her play Fever. Through fundraising, she was able to come close to her goal in a short amount of time. Louise has asked how other fundraising campaigns compared for their launch dates and funding goals. 
 
+## Resources
+Data Source: Kickstarter_Challenge.xlsx.zip, data-1-1-3-StarterBook.xlsx.zip
+Software: Microsoft Excel 16.48
+
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
