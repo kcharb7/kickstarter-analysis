@@ -7,6 +7,7 @@ Louise, a play writer, set a budget of $12,000 for her play Fever. Through fundr
 
 ## Resources
 Data Source: Kickstarter_Challenge.xlsx.zip, data-1-1-3-StarterBook.xlsx.zip
+
 Software: Microsoft Excel 16.48
 
 ## Analysis and Challenges
